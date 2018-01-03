@@ -1,70 +1,84 @@
 .past_btn{
-	width:200px;
-	height:50px;
-	font-size:20px;
+
+	height:90px;
+
 	border:none;
-	background:#fba427;
+	background:none;
 	border-radius:0;
+	padding:10px 0 0 0;
+	margin:0 0 0 -40px;
+	
 }
-.past_btn:hover{
-	background:#F69E05;
-}
+
 .click_part_text{
-	font-size:20px;
-	color:#10898C;
+	font-size:22px;
+	color:#0A71AC;
 	font-weight:bold;
 	float:left;
-	margin:10px 20px 0 0;
+	margin:10px 0 0 20px;
 	
 }
 .old_gastropart{
-	padding:30px 0 20px 0;
+	
+	margin:20px 0 0 0;
+}
+.old_gastropart_grey{
+	background:#DFDFDF;
+	height:50px;
+
+
+
+
 }
 /*==============box part=================*/
 .Surgeries_btn{
-	width:210px;
-	height:200px;
+	width:100%;
+	height:75px;
 	border:none;
 	background:#2FB9BB;
 	border-radius:0;
-	margin:45px 0 0 0;
+	margin:0 0 0 0;
 	font-size:18px;
+	padding:0 0 0 50px;
 }
 .Surgeries_btn:hover{
 	background:#5F5F5F;
 }
 .Nutrition_btn{
 	border:none;
-	width:210px;
-	height:200px;
+	width:100%;
+	height:75px;
 	background:#0B86A7;
 	border-radius:0;
-	margin:45px 0 0 0;
+	margin:0 0 0 0;
 	font-size:18px;
+	padding:0 0 0 50px;
 }
 .Nutrition_btn:hover{
 	background:#5F5F5F;
 }
 .Meeting_btn{
 	border:none;
-	width:210px;
-	height:200px;
+	width:100%;
+	height:75px;
 	background:#0E5390;
 	border-radius:0;
 	margin:0 0 0 0;
 	font-size:18px;
+	padding:0 0 0 50px;
 }
 .Meeting_btn:hover{
 	background:#5F5F5F;
 }
 .Management_btn{
 	border:none;
-	width:210px;
-	height:200px;
+	width:100%;
+	height:75px;
 	background:#2A3567;
 	border-radius:0;
 	margin:0 0 0 0;
 	font-size:18px;
+	padding:0 0 0 50px;
 }
 .Management_btn:hover{
 	background:#5F5F5F;
@@ -191,15 +205,14 @@
 }
 .welcome_head{
 	color:#0A71AC!important;
-	font-size:30px;
+	font-size:34px;
 	
-	margin:30px 0 30px 0;
+	margin:30px 0 30px 10px;
 	
 	
 }
 .welcome_para{
 	font-size:18px;
-	
 	margin:0 0 10px 0;
 
 }
@@ -370,73 +383,67 @@ ul{
 
 @media screen and (min-width:100px) and (max-width:400px){
 	.past_btn{
-	width:200px;
-	height:50px;
+	
+
 	font-size:20px;
 	border:none;
-	background:#fba427;
+	background:none;
 	border-radius:0;
+	margin:0 auto;
 }
 .past_btn:hover{
 	background:#F69E05;
 }
 .click_part_text{
-	font-size:20px;
+	font-size:15px;
 	color:#10898C;
 	font-weight:bold;
 	float:left;
 	margin:10px 20px 0 0;
+	text-align:center!important;
 	
 }
+.past_img{
+	margin:10px 0 0 50px;
+}
+
 .old_gastropart{
-	padding:30px 0 20px 0;
+	
+	margin:20px 0 0 0;
+}
+.old_gastropart_grey{
+	background:#fff;
+
+
+
 }
 /*==============box part=================*/
 .Surgeries_btn{
-	height:100%;
-	width:100%;
-	border:none;
-	background:#2FB9BB;
-	border-radius:0;
-	padding:0 0 20px 0!important;
-	margin:25px 0 0 0;
-	font-size:18px;
+	
+	margin:0 0 0 0;
+	font-size:20px;
 }
 .Surgeries_btn:hover{
 	background:#5F5F5F;
 }
 .Nutrition_btn{
-	border:none;
-	height:100%;
-	width:100%;
-	background:#0B86A7;
-	border-radius:0;
-	margin:0 0 0 0;
-	font-size:18px;
+	
+	
+	font-size:20px;
 }
 .Nutrition_btn:hover{
 	background:#5F5F5F;
 }
 .Meeting_btn{
-	border:none;
-	width:100%;
-	height:100%;
-	background:#0E5390;
-	border-radius:0;
-	margin:0 0 0 0;
-	font-size:18px;
+	font-size:20px;
+	
 }
 .Meeting_btn:hover{
 	background:#5F5F5F;
 }
 .Management_btn{
-	height:100%;
-	border:none;
-	width:100%;
-	background:#2A3567;
-	border-radius:0;
-	margin:0 0 0 0;
-	font-size:18px;
+	
+	font-size:20px;
 }
 .Management_btn:hover{
 	background:#5F5F5F;
@@ -605,7 +612,7 @@ border:none!important;
 	color:#0A71AC!important;
 	font-size:20px;
 	
-	margin:20px 0 10px 0;
+	margin:20px 0 10px 10px;
 	
 }
 .welcome_para{
